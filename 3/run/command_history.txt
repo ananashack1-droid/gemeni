@@ -1,0 +1,50 @@
+/l LS9rinD2
+/rtp
+/l LS9rinD2
+/rtp
+/l LS9rinD2
+/warp pvp
+/l LS9rinD2
+/warp pvp
+//wand
+/warp pvp
+//wand
+/kit titan
+/warp pvp
+/l LS9rinD2
+/warp pvp
+/l xuixui
+/l LS9rinD2
+/warp pvp
+/l LS9rinD2
+/warp pvp
+//wand
+/spawn
+/reg xuixui xuixui
+/kit titan
+/kit start
+/warp pvp
+/kit titan
+/kit free
+/kit start
+/warp pvp
+/kit titan
+/kit free
+/kit start
+/warp pvp
+/rtp
+/spawn
+/rtp
+/tpa stal1
+/rtp
+/кез
+/rtp
+/feed
+/duel mahitobusttit
+/spawn
+/duel mahitobusttit
+/reg xuixui xuixui
+/l xuixui
+/hub
+/l xuixui xuixui
+/hub

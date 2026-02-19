@@ -1,0 +1,26 @@
+v1	named	intermediary
+FIELD	sky/client/mixin/chat/MixinChatInputSuggestor	Lnet/minecraft/client/gui/widget/TextFieldWidget;	textField	field_21599
+FIELD	sky/client/mixin/chat/MixinChatInputSuggestor	Z	completingSuggestions	field_21614
+FIELD	sky/client/mixin/chat/MixinChatInputSuggestor	Lcom/mojang/brigadier/ParseResults;	parse	field_21610
+FIELD	sky/client/mixin/chat/MixinChatInputSuggestor	Ljava/util/concurrent/CompletableFuture;	pendingSuggestions	field_21611
+FIELD	sky/client/mixin/chat/MixinChatInputSuggestor	Lnet/minecraft/client/gui/screen/ChatInputSuggestor$SuggestionWindow;	window	field_21612
+FIELD	sky/client/mixin/client/RenderTickCounterDynamicAccessor	F	lastFrameDuration	field_51958
+FIELD	sky/client/mixin/client/RenderTickCounterDynamicAccessor	F	tickDelta	field_51959
+FIELD	sky/client/mixin/client/RenderTickCounterDynamicAccessor	J	prevTimeMillis	field_51962
+FIELD	sky/client/mixin/client/RenderTickCounterDynamicAccessor	F	tickTime	field_51964
+FIELD	sky/client/mixin/display/MixinCamera	Z	thirdPerson	field_18719
+FIELD	sky/client/mixin/display/MixinHandledScreen	Lnet/minecraft/screen/slot/Slot;	focusedSlot	field_2787
+FIELD	sky/client/mixin/player/MixinClientPlayerInteractionManager	Lnet/minecraft/client/MinecraftClient;	client	field_3712
+FIELD	sky/client/mixin/player/MixinEntity	Lnet/minecraft/util/math/Box;	boundingBox	field_6005
+FIELD	sky/client/mixin/player/MixinKeyboardInput	Lnet/minecraft/client/option/GameOptions;	settings	field_3902
+FIELD	sky/client/mixin/util/MixinPackScreen	Ljava/nio/file/Path;	file	field_25474
+METHOD	sky/client/mixin/chat/MixinChatInputSuggestor	()V	showCommandSuggestions	method_23937
+METHOD	sky/client/mixin/display/MixinCamera	(FF)V	setRotation	method_19325
+METHOD	sky/client/mixin/display/MixinGameRenderer	()F	getViewDistance	method_3193
+METHOD	sky/client/mixin/display/MixinHandledScreen	(Lnet/minecraft/screen/slot/Slot;IILnet/minecraft/screen/slot/SlotActionType;)V	onMouseClick	method_2383
+METHOD	sky/client/mixin/display/MixinWorldRenderer	(Lnet/minecraft/client/render/FrameGraphBuilder;Lnet/minecraft/client/render/Frustum;Lnet/minecraft/client/render/Camera;Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;Lnet/minecraft/client/render/Fog;ZZLnet/minecraft/client/render/RenderTickCounter;Lnet/minecraft/util/profiler/Profiler;)V	renderMain	method_62202
+METHOD	sky/client/mixin/player/MixinClientPlayerEntity	(Lnet/minecraft/entity/MovementType;Lnet/minecraft/util/math/Vec3d;)V	move	method_5784
+METHOD	sky/client/mixin/player/MixinEntity	(Lnet/minecraft/util/math/Vec3d;FF)Lnet/minecraft/util/math/Vec3d;	movementInputToVelocity	method_18795
+METHOD	sky/client/mixin/player/MixinLivingEntity	()F	getJumpVelocity	method_6106
+METHOD	sky/client/mixin/player/MixinLivingEntity	()D	getGravity	method_7490
+METHOD	sky/client/mixin/util/MixinFlowableFluid	(Lnet/minecraft/world/BlockView;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/math/Direction;)Z	isFlowBlocked	method_15749
